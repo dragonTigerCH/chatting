@@ -1,0 +1,23 @@
+server:
+  port: ${port:8088}
+  servlet:
+    context-path: /api/v1
+  # Spring boot 2.6버전 이후에 spring.mvc.pathmatch.matching-strategy 값이 ant_apth_matcher에서 path_pattern_parser로 변경되면서 몇몇 라이브러리에서 오류가 발생하고 있다!
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+#jwt:
+#  header: Authorization
+#  secret: szsjobisszsjobisszsjobisszsjobisszsjobisszsjobisszsjobisszsjobisszsjobisszsjobisszsjobisszsjobisszsjobisszsjobisszsjobis
+#  token-validity-in-seconds: 86400
+#
+#aes256:
+#  key: szsjobisszsjobisszsjobisszsjobis
+
+#  http:
+#    encoding:
+#      charset: UTF-8
+#      enabled: true
+#      force: true
