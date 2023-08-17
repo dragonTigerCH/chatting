@@ -8,16 +8,3 @@ spring:
     pathmatch:
       matching-strategy: ant_path_matcher
 
-#jwt:
-#  header: Authorization
-#  secret: szsjobisszsjobisszsjobisszsjobisszsjobisszsjobisszsjobisszsjobisszsjobisszsjobisszsjobisszsjobisszsjobisszsjobisszsjobis
-#  token-validity-in-seconds: 86400
-#
-#aes256:
-#  key: szsjobisszsjobisszsjobisszsjobis
-
-#  http:
-#    encoding:
-#      charset: UTF-8
-#      enabled: true
-#      force: true
